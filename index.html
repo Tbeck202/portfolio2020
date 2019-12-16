@@ -21,11 +21,11 @@
                     Projects
                 <i class="dropdown icon"></i>
                 <div class="menu">
-                    <div class="item"><a href="">Jazz Match</a></div>
-                    <div class="item"><a href="">Sound Circles</a></div>
-                    <div class="item"><a href="">Insurance Calculator</a></div>
-                    <div class="item"><a href="">Pizza Order Calculator</a></div>
-                    <div class="item"><a href="http://www.202photo.com" target="none">Photo/Video</a></div>
+                    <div class="item"><a class="project-links" href="">Jazz Match</a></div>
+                    <div class="item"><a class="project-links" href="">Sound Circles</a></div>
+                    <div class="item"><a class="project-links" href="">Insurance Calculator</a></div>
+                    <div class="item"><a class="project-links" href="">Pizza Order Calculator</a></div>
+                    <div class="item"><a class="project-links" href="http://www.202photo.com" target="none">Photo/Video</a></div>
                 </div>   
             </div>
             
@@ -40,19 +40,99 @@
 
  <!--ABOUT ME-->
     <div class="ui container about">
-        <div class="ui grid">
+        <div class="ui two column grid stackable">
             <div class="four wide column"><img class="ui small centered rounded image" src="./imgs/avatar.jpg" alt="" srcset=""></div>
             <div class="twelve wide column">
                 <p class="">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. At aut sit laborum officiis, et eveniet ipsum, a, velit dolorem corporis quam dignissimos natus facere unde sapiente! Odio saepe laudantium error. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum vero incidunt cumque dolor dignissimos atque recusandae adipisci excepturi pariatur. Vero illum sint voluptates nisi minus. Culpa magni quae molestias corporis?
+                    Originally from Salt Lake City, Utah, I am a software developer living in beautiful Portland, Oregon. I have dedicated the past year to learning and improving my skills by attending two seperate developer bootcamps. I attended the Tech Academy here in Portland over the summer of 2019 and upon completion, I completed the web developer bootcamp by Colt Steele on Udemy. I've grown and learned so much over the last year and I can't wait to see where I go from here as I continue to grow as a developer. 
+                </p>
+                <p>
+                    As a professional, I believe in hard work and continued education. Furthermore, I believe that I have a responsibilty to keep learning and growing throughout my career so that I can always make a meaningful impact in any setting.
                 </p>
             </div>
         </div>
+        <div class="ui grid">
+            <h2 class="ui header center aligned twelve column">
+                stuff I know
+            </h2>
+        </div>
+        <div class="twelve wide column">
+            <p class="">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. At aut sit laborum officiis, et eveniet ipsum, a, velit dolorem corporis quam dignissimos natus facere unde sapiente! Odio saepe laudantium error. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum vero incidunt cumque dolor dignissimos atque recusandae adipisci excepturi pariatur. Vero illum sint voluptates nisi minus. Culpa magni quae molestias corporis?
+            </p>
+        </div>
     </div>
 <!--END ABOUT ME-->
-<button class="btn">click</button>
+
+<!-- PROJECTS-->
+<div class="container projects">
+    <div class="ui two column grid stackable">
+        <div class="column">
+        <div class="ui fluid card">
+            <div class="center aligned image">
+                <video src="./imgs/camp202.mp4" autoplay loop></video>
+            </div>
+            <div class="content">
+                <a class="center aligned header">Camp202</a>
+                <div class="center aligned description">
+                    <p>This is a full stack REST application with full CRUD capability. Built with node.js using NPM, Express.js, Mongo DB, Mongoose, Passport.js and even a google maps API. The application is styled with bootstrap 4 along with some custom CSS and features user authentication as well as flash messaging.</p>
+                    
+                    <p>Feel free to create an account and leave a comment on an existing campsite or even add a new campsite to my list.</p>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="ui fluid card">
+            <div class="center aligned image">
+                    <video src="./imgs/JazzMatch.mp4" autoplay loop></video>
+            </div>
+            <div class="content">
+              <a class="center aligned header">JazzMatch</a>
+              <div class="center aligned description">
+                    <p>This is a single page application built with HTML, CSS and vanilla Javascript with no jQuery.  The goal was to create an interactive matching game with different difficulty modes, a running score tally and different messages displayed to the user depending on their score.</p>
+                    
+                    <p>Feel free to give it a shot and see how well you know my favorite basketball team, the Utah Jazz!</p>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="ui fluid card">
+            <div class="center aligned image">
+                    <video src="./imgs/Insurance.mp4" autoplay loop></video>
+            </div>
+            <div class="content">
+              <a class="center aligned header">Insurance Quote App</a>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+            <div class="ui fluid card">
+                    <div class="center aligned image">
+                        <video src="./imgs/soundCircles.mp4" autoplay loop></video>
+                    </div>
+                    <div class="content">
+                        <a class="header">Sound Cirlces</a>
+                    </div>
+            </div>
+        </div>
+        <div class="column">
+                <div class="ui fluid card">
+                        <div class="center aligned image">
+                            <video src="./imgs/Pizza.mp4" autoplay loop></video>
+                        </div>
+                        <div class="content">
+                            <a class="header">Pizza Order Calculator</a>
+                        </div>
+                </div>
+            </div>
+      </div>
+</div>
+  <!-- END PROJECTS-->
+
         
-    <script src="/scripts/main.js"></script>
+<script src="/scripts/main.js"></script>
     
     <!-- <script>
         $(".dropdown").dropdown()

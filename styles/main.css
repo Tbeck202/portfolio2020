@@ -1,3 +1,26 @@
 .about {
     padding: 50px;
+    /*margin: 50px auto;*/
+}
+
+.project-links{
+    color: black;
+}
+
+.project-links:hover {
+    color: rgb(109, 109, 109);
+}
+
+.projects {
+    width: 50%;
+    margin: auto;
+}
+
+.ui.card>.image, .ui.cards>.card>.image {
+    background: white;
+}
+
+video {
+    width: 98%;
+    margin: 5px auto;
 }
