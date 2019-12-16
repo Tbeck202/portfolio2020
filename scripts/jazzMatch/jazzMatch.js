@@ -416,7 +416,7 @@ function gameOver() {
         welcome.textContent = "You got " +  score + " out of " + scorePossible + "!" + " Someone really knows their Jazz-men! Click reset to try again.";
     }
     else if (finalScore === 1){
-        welcome.textContent = "You got " +  score + " out of " + scorePossible + "!" + " Look at you with the Jazz player match-a-bility! Click reset to play again.";
+        welcome.textContent = "You got " +  score + " out of " + scorePossible + "!" + " 100%! You gotta love it baby! Click reset to play again.";
     }
 }
 
