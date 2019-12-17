@@ -1,6 +1,7 @@
 .about {
     padding: 50px;
     /*margin: 50px auto;*/
+    font-size: 1.5em;
 }
 
 .project-links{
@@ -12,7 +13,7 @@
 }
 
 .projects {
-    width: 50%;
+    width: 70%;
     margin: auto;
 }
 
@@ -24,3 +25,22 @@ video {
     width: 98%;
     margin: 5px auto;
 }
+
+.description {
+    font-size: 1.2em;
+}
+
+footer {
+    margin: 30px auto;
+    text-align: center;
+}
+
+/* .card {
+    opacity: 0;
+    transition: opacity .5s;
+    will-change: opacity;
+}
+
+.card.visible {
+    opacity: 1;
+} */

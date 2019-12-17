@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous">
+    </script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
-    <link rel="stylesheet" href="./styles/main.css">
     <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+    <link rel="stylesheet" href="./styles/main.css">
 </head>
 <body>
 <!-- NAV -->
@@ -41,10 +42,10 @@
  <!--ABOUT ME-->
     <div class="ui container about">
         <div class="ui two column grid stackable">
-            <div class="four wide column"><img class="ui small centered rounded image" src="./imgs/avatar.jpg" alt="" srcset=""></div>
+            <div class="four wide column"><img class="ui large centered rounded image" src="./imgs/avatar.jpg" alt="" srcset=""></div>
             <div class="twelve wide column">
-                <p class="">
-                    Originally from Salt Lake City, Utah, I am a software developer living in beautiful Portland, Oregon. I have dedicated the past year to learning and improving my skills by attending two seperate developer bootcamps. I attended the Tech Academy here in Portland over the summer of 2019 and upon completion, I completed the web developer bootcamp by Colt Steele on Udemy. I've grown and learned so much over the last year and I can't wait to see where I go from here as I continue to grow as a developer. 
+                <p>
+                    Originally from Salt Lake City, Utah, I am a software developer living in beautiful Portland, Oregon. I have dedicated the past year to learning and improving my skills by attending two separate developer bootcamps. I attended the Tech Academy here in Portland over the summer of 2019 and upon completion, I attended and completed the web developer bootcamp by Colt Steele on Udemy. I've grown and learned so much over the last year and I can't wait to see where I go from here as I continue to grow as a developer. 
                 </p>
                 <p>
                     As a professional, I believe in hard work and continued education. Furthermore, I believe that I have a responsibilty to keep learning and growing throughout my career so that I can always make a meaningful impact in any setting.
@@ -68,7 +69,7 @@
 <div class="container projects">
     <div class="ui two column grid stackable">
         <div class="column">
-        <div class="ui fluid card">
+        <div class="ui fluid card show-on-scroll">
             <div class="center aligned image">
                 <video src="./imgs/camp202.mp4" autoplay loop></video>
             </div>
@@ -83,47 +84,62 @@
           </div>
         </div>
         <div class="column">
-          <div class="ui fluid card">
-            <div class="center aligned image">
+            <div class="ui fluid card show-on-scroll">
+                <div class="center aligned image">
                     <video src="./imgs/JazzMatch.mp4" autoplay loop></video>
-            </div>
-            <div class="content">
-              <a class="center aligned header" href="./projects/jazzMatch.html" target="none">JazzMatch</a>
-              <div class="center aligned description">
-                    <p>This is a single page application built with HTML, CSS and vanilla Javascript with no jQuery.  The goal was to create an interactive matching game with different difficulty modes, a running score tally and different messages displayed to the user depending on their score.</p>
-                    
-                    <p>Feel free to give it a shot and see how well you know my favorite basketball team, the Utah Jazz!</p>
+                </div>
+                <div class="content">
+                    <a class="center aligned header" href="./projects/jazzMatch.html" target="none">JazzMatch</a>
+                    <div class="center aligned description">
+                        <p>This is a single page application built with HTML, CSS and vanilla Javascript with no jQuery.  The goal was to create an interactive matching game with different difficulty modes, a running score tally and different messages displayed to the user depending on their score.</p>
+                        
+                        <p>Feel free to give it a shot and see how well you know my favorite basketball team, the Utah Jazz!</p>
+                    </div>
                 </div>
             </div>
-          </div>
         </div>
         <div class="column">
-          <div class="ui fluid card">
-            <div class="center aligned image">
+            <div class="ui fluid card show-on-scroll">
+                <div class="center aligned image">
                     <video src="./imgs/Insurance.mp4" autoplay loop></video>
+                </div>
+                <div class="content">
+                    <a class="center aligned header" href="https://github.com/Tbeck202/C-Sharp-Coding-Projects/tree/master/InsuranceQuoteApp" target="_none">Insurance Quote App</a>
+                    <div class="center aligned description">
+                        <p>This is an ASP.NET MVC web application built with HTML, CSS, C# and SQL.  The goal was to create an interactive application with full CRUD capability where a user could sign up, answer some questions and receive a mock bid for car insurance. I used entity framework for interacting with the database and bootstrap to handle the styling.</p>
+                        
+                        <p>The site is not hosted anywhere at the moment but the video above shows the general flow of the application and all the code is on my <a href="https://github.com/Tbeck202/C-Sharp-Coding-Projects/tree/master/InsuranceQuoteApp" target="_none">github</a> for those that would like to check it out.</p>
+                    </div>
+                </div>
             </div>
-            <div class="content">
-              <a class="center aligned header">Insurance Quote App</a>
-            </div>
-          </div>
         </div>
         <div class="column">
-            <div class="ui fluid card">
+            <div class="ui fluid card show-on-scroll">
                     <div class="center aligned image">
                         <video src="./imgs/soundCircles.mp4" autoplay loop></video>
                     </div>
                     <div class="content">
-                        <a class="header">Sound Cirlces</a>
+                        <a class="center aligned header" href="./projects/soundCircles.html" target="_none">Sound Cirlces</a>
+                        <div class="center aligned description">
+                            <p>Here's an interesting project! This was actually part of a code along in a bootcamp but I just thought it was too cool to hide. In this project, I learned how to work with Javascript libraries and also about the canvas HTML tag. The site is a clone of a site called patatap and is pretty fun to play around with. Upon pressing any lettered key on your keyboard, a sound is played and an animation is displayed.</p>
+                            
+                            <p>Feel free to give it a shot and see if you can come up with a cool song or two!</p>
+                        </div>
                     </div>
             </div>
         </div>
-        <div class="column">
-                <div class="ui fluid card">
+        <div class="centered column">
+                <div class="ui fluid card show-on-scroll">
                         <div class="center aligned image">
                             <video src="./imgs/Pizza.mp4" autoplay loop></video>
                         </div>
                         <div class="content">
-                            <a class="header">Pizza Order Calculator</a>
+                            <a class="center aligned header" href="projects/pizzaSite/index.html" target="_none">Pizza Order Calculator</a>
+                            <div class="center aligned description">
+                                <p>This here is actually the very first portfolio worthy project I ever completed.  It is a simple app that takes in some user input and calculates the total cost of a mock pizza deliver order.  Built with plain old HTML, CSS and vanilla Javascript, this was the first application I built with any real substance and I'm still proud of it to this day.</p>
+                                
+                                <p>Feel free to give it a shot and see what kind of combinations you can come up with!</p>
+                            </div>
                         </div>
                 </div>
             </div>
@@ -131,8 +147,22 @@
 </div>
   <!-- END PROJECTS-->
 
+  <!-- FOOTER -->
+<footer>
+    <p class="footer">Site created and maintained by 202code&nbsp;|&nbsp;
+        <span>
+            <script type="text/JavaScript">
+                document.write(new Date().getFullYear());
+            </script>
+        </span>
+    </p>
+</footer>
+  <!-- END FOOTER-->
+
+  
+
         
-<script src="/scripts/main.js"></script>
+<script type="text/JavaScript" src="/scripts/main.js"></script>
     
     <!-- <script>
         $(".dropdown").dropdown()
