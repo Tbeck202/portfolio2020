@@ -1,7 +1,35 @@
+/* dark blue: #0B0B10  */
+/* medium blue: #1F2733  */
+/* Gray: #C5C6C8  */
+/* bright blue: #66FCF1  */
+/* grayish blue: #45A29F  */
+
+body {
+    background-color: #0B0B10;
+    color: #fff;   
+    font-family: 'Barlow Condensed', sans-serif;       
+}  
+
+.nav {
+    background-color: #1F2733;
+}
+
+.ui.menu .item {
+    color: #fff; 
+}
+
 .about {
     padding: 50px;
     /*margin: 50px auto;*/
     font-size: 1.5em;
+}
+
+.ui.bordered.image img, .ui.bordered.image svg, .ui.bordered.images .image, .ui.bordered.images img, .ui.bordered.images svg, img.ui.bordered.image {
+    border: 3px solid #fff;
+}
+
+.ui.header {
+    color: #66FCF1;
 }
 
 .project-links{
@@ -15,6 +43,16 @@
 .projects {
     width: 70%;
     margin: auto;
+}
+
+.skills {
+    width: 50%;
+    margin: 0 auto 50px;
+}
+
+#skills {
+    background-color: #1F2733;
+    border-radius: 10px;
 }
 
 .ui.card>.image, .ui.cards>.card>.image {
@@ -35,12 +73,12 @@ footer {
     text-align: center;
 }
 
-/* .card {
-    opacity: 0;
-    transition: opacity .5s;
-    will-change: opacity;
+.skill {
+   margin-top: 10px;
+   color: #66FCF1;
+   font-size: 1.1em;
 }
 
-.card.visible {
-    opacity: 1;
-} */
+.ui.centered.grid.icons, #skills{
+    margin-top: 50px;
+}
