@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>202code</title>
     <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous">
     </script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
     <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+    <link rel="icon" href="./imgs/avatar.jpg">
     <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed|Nanum+Gothic&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Barlow:300,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/main.css">
 </head>
 <body>
@@ -19,24 +20,25 @@
         <div class="ui container">
             <div class="ui secondary stackable menu">
                 <h1 class="item ui header">202code</h1>
-                <a class="item">About</a>
+                <a href="https://docs.google.com/document/d/e/2PACX-1vS6bRzvB5-oaiVXYXacoGcYhXVaTqZs0wQjB1kuPDPOY2gWcHM-LgA65dsd_0QtNeWu9B9-2CcSQPrf/pub" target="none" class="item">Resume</a>
                 <a class="item" href="https://github.com/Tbeck202/Portfolio" target="none">Git Hub</a>
                 <div class="ui pointing dropdown link item">
                         Projects
                     <i class="dropdown icon"></i>
                     <div class="menu">
-                        <div class="item"><a class="project-links" href="">Jazz Match</a></div>
-                        <div class="item"><a class="project-links" href="">Sound Circles</a></div>
-                        <div class="item"><a class="project-links" href="">Insurance Calculator</a></div>
-                        <div class="item"><a class="project-links" href="">Pizza Order Calculator</a></div>
+                        <div class="item"><a class="project-links" href="#camp202">camp202</a></div>
+                        <div class="item"><a class="project-links" href="#jazzMatch">Jazz Match</a></div>
+                        <div class="item"><a class="project-links" href="#circles">Sound Circles</a></div>
+                        <div class="item"><a class="project-links" href="#insurance">Insurance Calculator</a></div>
+                        <div class="item"><a class="project-links" href="#pizza">Pizza Order Calculator</a></div>
                         <div class="item"><a class="project-links" href="http://www.202photo.com" target="none">Photo/Video</a></div>
                     </div>   
                 </div>
                 
                 <div class="right menu">
-                    <a class="ui item" href="">Contact</a>
-                    <a class="ui item"><i class="linkedin icon"></i></a>
-                    <a class="ui item" href=""><i class="instagram icon" href=""></i></a>
+                    <a class="ui item" href="mailto: tbeck202@gmail.com" target="none">Contact</a>
+                    <a class="ui item" href="https://www.linkedin.com/in/tylerbeck202/" target="none"><i class="linkedin icon"></i></a>
+                    <a class="ui item" href="https://www.instagram.com/bob_villain/" target="none"><i class="instagram icon" href=""></i></a>
                 </div>
             </div>
         </div>
@@ -46,10 +48,10 @@
  <!--ABOUT ME-->
     <div class="ui container about">
         <div class="ui two column grid stackable">
-            <div class="four wide column"><img class="ui large centered rounded bordered image computer only" id="avatar" src="./imgs/avatar.jpg" alt="" srcset=""></div>
+            <div class="four wide column"><img class="ui large centered circular bordered image computer only" id="avatar" src="./imgs/avatar.jpg" alt="" srcset=""></div>
             <div class="twelve wide column">
                 <p>
-                    Originally from Salt Lake City, Utah, I am a software developer living in beautiful Portland, Oregon. I have dedicated the past year to learning and improving my skills by attending two separate developer bootcamps. I attended the Tech Academy here in Portland over the summer of 2019 and upon completion, I attended and completed the web developer bootcamp by Colt Steele on Udemy. I've grown and learned so much over the last year and I can't wait to see where I go from here as I continue to grow as a developer. 
+                    Originally from Salt Lake City, Utah, I am a software developer living in beautiful Portland, Oregon. I have dedicated the past year to learning and improving my skills by attending two separate developer bootcamps. <!--I attended the Tech Academy here in Portland over the summer of 2019 and upon completion, I attended and completed the web developer bootcamp by Colt Steele on Udemy. I've grown and learned so much over the last year and I can't wait to see where I go from here as I continue to grow as a developer.--> 
                 </p>
                 <p>
                     As a professional, I believe in hard work and continued education. Furthermore, I believe that I have a responsibilty to keep learning and growing throughout my career so that I can always make a meaningful impact in any setting.
@@ -63,11 +65,11 @@
 <div class="container skills">
     <div class="ui grid">
         <h2 class="ui header center aligned twelve column">
-            stuff I know
+            SKILLS
         </h2>
     </div>
     <div class="ui grid centered">
-        <p class="twelve wide column about center aligned">
+        <p class="twelve wide column about center aligned" id="experience">
             I have experience with a number of different technologies, having studied and completed projects in the languages and frameworks listed below.
         </p>
     </div>
@@ -78,6 +80,7 @@
         <div class="three wide center aligned column stackable"><img class="ui centered tiny image" src="/imgs/skills/nodejs.png"><p class="skill">Node.js</p></div>
         <div class="three wide center aligned column stackable"><img class="ui centered tiny image" src="/imgs/skills/npm.png"><p class="skill">NPM</p></div>
         <div class="three wide center aligned column stackable"><img class="ui centered tiny image" src="/imgs/skills/csharp2.png"><p class="skill">C#</p></div>
+        <div class="three wide center aligned column stackable"><img class="ui centered tiny image" src="/imgs/skills/dot-net3.png"><p class="skill">.NET</p></div>
         <div class="three wide center aligned column stackable"><img class="ui centered tiny image" src="/imgs/skills/jQuery.png"><p class="skill">jQuery</p></div>
         <div class="three wide center aligned column stackable"><img class="ui centered tiny image" src="/imgs/skills/atlas.png"><p class="skill">Mongo DB Atlas</p></div>
         <div class="three wide center aligned column stackable"><img class="ui centered tiny image" src="/imgs/skills/SQLite.jpg"><p class="skill">SQLite</p></div>
@@ -90,8 +93,11 @@
 <!-- END SKILLS-->
 
 <!-- PROJECTS-->
+<h2 class="ui header center aligned twelve column" id="projectHead">
+    PROJECTS
+</h2>
 <div class="container projects">
-    <div class="ui two column grid stackable">
+    <div class="ui two column grid stackable" id="camp202">
         <div class="column">
         <div class="ui fluid card show-on-scroll">
             <div class="center aligned image">
@@ -108,7 +114,7 @@
           </div>
         </div>
         <div class="column">
-            <div class="ui fluid card show-on-scroll">
+            <div class="ui fluid card show-on-scroll" id="jazzMatch">
                 <div class="center aligned image">
                     <video src="./imgs/JazzMatch.mp4" autoplay loop></video>
                 </div>
@@ -123,7 +129,7 @@
             </div>
         </div>
         <div class="column">
-            <div class="ui fluid card show-on-scroll">
+            <div class="ui fluid card show-on-scroll" id="insurance">
                 <div class="center aligned image">
                     <video src="./imgs/Insurance.mp4" autoplay loop></video>
                 </div>
@@ -138,7 +144,7 @@
             </div>
         </div>
         <div class="column">
-            <div class="ui fluid card show-on-scroll">
+            <div class="ui fluid card show-on-scroll" id="circles">
                     <div class="center aligned image">
                         <video src="./imgs/soundCircles.mp4" autoplay loop></video>
                     </div>
@@ -153,7 +159,7 @@
             </div>
         </div>
         <div class="centered column">
-                <div class="ui fluid card show-on-scroll">
+                <div class="ui fluid card show-on-scroll" id="pizza">
                         <div class="center aligned image">
                             <video src="./imgs/Pizza.mp4" autoplay loop></video>
                         </div>

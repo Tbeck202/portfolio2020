@@ -5,80 +5,102 @@
 /* grayish blue: #45A29F  */
 
 body {
-    background-color: #0B0B10;
-    color: #fff;   
-    font-family: 'Barlow Condensed', sans-serif;       
-}  
+	background-color: #0b0b10;
+	color: #fff;
+	font-family: 'Barlow Condensed', sans-serif;
+}
 
 .nav {
-    background-color: #1F2733;
+	background-color: #1f2733;
 }
 
 .ui.menu .item {
-    color: #fff; 
+	color: #fff;
 }
 
 .about {
-    padding: 50px;
-    /*margin: 50px auto;*/
-    font-size: 1.5em;
+	padding: 50px;
+	/*margin: 50px auto;*/
+	font-size: 1.5em;
 }
 
-.ui.bordered.image img, .ui.bordered.image svg, .ui.bordered.images .image, .ui.bordered.images img, .ui.bordered.images svg, img.ui.bordered.image {
-    border: 3px solid #fff;
+.ui.bordered.image img,
+.ui.bordered.image svg,
+.ui.bordered.images .image,
+.ui.bordered.images img,
+.ui.bordered.images svg,
+img.ui.bordered.image {
+	border: 3px solid #fff;
 }
 
 .ui.header {
-    color: #66FCF1;
+	color: #66fcf1;
+	font-weight: 300;
 }
 
-.project-links{
-    color: black;
+#projectHead {
+	margin-bottom: 50px;
+}
+
+.project-links {
+	color: black;
 }
 
 .project-links:hover {
-    color: rgb(109, 109, 109);
+	color: rgb(109, 109, 109);
 }
 
 .projects {
-    width: 70%;
-    margin: auto;
+	width: 70%;
+	margin: auto;
 }
 
 .skills {
-    width: 50%;
-    margin: 0 auto 50px;
+	width: 50%;
+	margin: 0 auto 50px;
 }
 
 #skills {
-    background-color: #1F2733;
-    border-radius: 10px;
+	background-color: #1f2733;
+	border-radius: 10px;
 }
 
-.ui.card>.image, .ui.cards>.card>.image {
-    background: white;
+.ui.card > .image,
+.ui.cards > .card > .image {
+	background: white;
 }
 
 video {
-    width: 98%;
-    margin: 5px auto;
+	width: 98%;
+	margin: 5px auto;
 }
 
 .description {
-    font-size: 1.2em;
+	font-size: 1.2em;
 }
 
 footer {
-    margin: 30px auto;
-    text-align: center;
+	margin: 30px auto;
+	text-align: center;
 }
 
 .skill {
-   margin-top: 10px;
-   color: #66FCF1;
-   font-size: 1.1em;
+	margin-top: 10px;
+	color: #66fcf1;
+	font-size: 1.1em;
 }
 
-.ui.centered.grid.icons, #skills{
-    margin-top: 50px;
+.ui.centered.grid.icons,
+#skills {
+	margin-top: 50px;
+}
+
+@media only screen and (max-width: 450px) {
+	.skill {
+		display: none;
+	}
+
+	#experience {
+		display: none;
+	}
 }
